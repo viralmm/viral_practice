@@ -1,0 +1,92 @@
+1] What is SQL Key Constraints write an Example of SQL Key Constraints ?
+Ans:SQL constraints are used to specify rules for the data in a table.Primary key,foreign key & unique key are examples of SQL
+Key constraints.
+
+2]What is SQL View Create a View of Student Table ?
+Ans: In SQL, a view is a virtual table based on the result-set of an SQL statement. A view contains rows and columns, just like a real table.
+
+3] What is SQL and How to Create a table with Forign Key?
+Ans: SQL is Structured Query Language, which is a computer language for storing, manipulating and retrieving data stored in a relational database.
+To create a new table containing a foreign key column that references another table, use the keyword FOREIGN KEY REFERENCES at the end of the definition of that column.
+
+4] What is store Proceedure write a query of creating store Proceedure ?
+Ans: A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again. 
+ CREATE PROCEDURE SelectAllCustomers
+AS
+SELECT * FROM Customers
+GO;
+
+5] What is save Point How to Create a save Point write a Query ?
+Ans: To verify that the record's name field with ID as 1 is updated successfully, we will again execute the SELECT query. To save the transaction with this updated record, we will create a new savepoint.
+The syntax for a SAVEPOINT command is as shown below. SAVEPOINT SAVEPOINT_NAME.
+
+6] What is trigger and how to Create a Trigger in SQL ?
+Ans: A trigger is a stored procedure in database which automatically invokes whenever a special event in the database occurs.
+
+7] What do you understood By Database ?
+Ans: A database is an organized collection of structured information, or data, typically stored electronically in a computer system. 
+A database is usually controlled by a database management system (DBMS).
+
+8] What is Difference Between DBMS and RDBMS ?
+Ans: DBMS stands for Database Management System, and RDBMS is the acronym for the Relational Database Management system. 
+In DBMS, the data is stored as a file, whereas in RDBMS, data is stored in the form of tables.
+
+9] What do you understood By Data Redundancy ?
+Ans:Data redundancy occurs when the same piece of data exists in multiple places, 
+whereas data inconsistency is when the same data exists in different formats in multiple tables.
+
+10] What is Normalization?
+Ans: Normalization is a database design technique that reduces data redundancy and eliminates undesirable characteristics like Insertion, Update and Deletion Anomalies. 
+ 
+11] What is DDL Interpreter?
+Ans: The DDL interpreter interprets DDL statements and records the definition in the data dictionary. 
+
+12] What is DML Compiler in SQL?
+Ans: DML stands for Data Manipulation Language. DML compiler translates the DML statements which are there in a query language into the low-level instructions 
+which the query evaluation engine understands easily.
+
+13] What is Database transaction?
+Ans: In short, a database transaction is a sequence of multiple operations performed on a database, and all served as a single logical unit of work — taking place wholly or not at all.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
